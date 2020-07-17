@@ -6,15 +6,24 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Tag: 随笔 | 雨季何患的个人博客</title>
+  <title>hexo博客搭建(基础版) | 雨季何患的个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="雨季何患的个人博客">
-<meta property="og:url" content="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/index.html">
+  <meta name="description" content="帮助小白搭建一个基础的博客(windows10版)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo博客搭建(基础版)">
+<meta property="og:url" content="http://yoursite.com/2020/07/17/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%9F%BA%E7%A1%80%E7%89%88/index.html">
 <meta property="og:site_name" content="雨季何患的个人博客">
+<meta property="og:description" content="帮助小白搭建一个基础的博客(windows10版)">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/images/1.png">
+<meta property="og:image" content="http://yoursite.com/images/2.png">
+<meta property="og:image" content="http://yoursite.com/images/3.png">
+<meta property="article:published_time" content="2020-07-17T03:27:01.000Z">
+<meta property="article:modified_time" content="2020-07-17T05:24:03.354Z">
 <meta property="article:author" content="雨季何患！">
+<meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/images/1.png">
   
     <link rel="alternative" href="/atom.xml" title="雨季何患的个人博客" type="application/atom+xml">
   
@@ -159,35 +168,105 @@
           </div>
           <div id="js-content" class="content-ll">
             
+    <i class="fa fa-thumb-tack"></i>
+    <font color=7D26CD>置顶</font>
+    <span class="post-meta-divider">|</span>
   
+<article id="post-hexo博客搭建-基础版" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/07/17/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%9F%BA%E7%A1%80%E7%89%88/" class="archive-article-date">
+    <h1 class="article-title" itemprop="name">
+      hexo博客搭建(基础版)
+    </h1>
+  
+
+        
+        <a href="/2020/07/17/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%9F%BA%E7%A1%80%E7%89%88/" class="archive-article-date">
   	<time datetime="2020-07-17T03:27:01.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-17</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/17/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%9F%BA%E7%A1%80%E7%89%88/">hexo博客搭建(基础版)</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="帮助小白搭建一个基础的博客-windows10版"><a href="#帮助小白搭建一个基础的博客-windows10版" class="headerlink" title="帮助小白搭建一个基础的博客(windows10版)"></a>帮助小白搭建一个基础的博客(windows10版)</h1><a id="more"></a>
+<h2 id="准备操作"><a href="#准备操作" class="headerlink" title="准备操作"></a>准备操作</h2><p>1.注册github  </p>
+<p>2.Git<br>1)简单下载并安装,可参考如下网址:<br>[下载] (<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a>)<br>[安装] (<a href="https://www.cnblogs.com/ximiaomiao/p/7140456.html" target="_blank" rel="noopener">https://www.cnblogs.com/ximiaomiao/p/7140456.html</a>) </p>
+<p>2)Git配置(需用到github),可参考如下址:<br>[配置] (<a href="http://www.xuanfengge.com/using-ssh-key-link-github-photo-tour.html" target="_blank" rel="noopener">http://www.xuanfengge.com/using-ssh-key-link-github-photo-tour.html</a>)  </p>
+<p>3.Node.js<br>简单下载安装即可,下载地址如下:<br>[下载] (<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>)  </p>
+<p>4.检查是否安装成功<br>1)输入指令node -v(返回版本号)<br>2)输入指令npm -v(返回版本号)  </p>
+<p>5.安装淘宝的镜像源(如果安装错误可以重新来)<br>1)安装<br>输入指令  npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a><br>2)检测<br>输入指令cnpm(返回cnpm的信息)</p>
+<p>输入指令cnpm -v(返回cnpm的版本信息)  </p>
+<p>6.安装hexo<br>1)安装<br>输入指令  cnpm install -g hexo-cli  </p>
+<p>2)检测<br>输入指令hexo -v(返回hexo的版本信息)  </p>
+<h2 id="初始化操作"><a href="#初始化操作" class="headerlink" title="初始化操作"></a>初始化操作</h2><p>1.在本地建立blog文件夹</p>
+<p>2.在blog文件夹里面右键进入git界面<br>1)初始化hexo<br>输入指令 hexo init</p>
+<p>2)查看初始化获得的文件<br>输入指令 ls -l</p>
+<p>3)启动hexo<br>输入指令  hexo s  </p>
+<p>现在就可以进入本地4000端口查看自己的网站了，如图：<br><img src="/images/1.png" alt="图1">   </p>
+<h2 id="深化操作"><a href="#深化操作" class="headerlink" title="深化操作"></a>深化操作</h2><p>1.在github中用自己的昵称+.github.io创建一个仓库(例：hansonpang99.github.io)<br><img src="/images/2.png" alt="图2">   </p>
+<p>2.在blog中打开git安装一个hexo插件<br>指令 cnpm install –save hexo-deployer-git  </p>
+<p>3.打开blog目录中config.yml文件。找到如图:<br><img src="/images/3.png" alt="图3">   </p>
+<p>4.部署<br>1)如上图，找到这部分代码，（原始的是没有repo，和branch的，而且type后面也没有东西）<br>对这段代码进行更改</p>
+<p>type 一个名字，建议写成git方便识别</p>
+<p>repo repository仓库地址 将刚刚新建的github仓库地址复制到这里就可以了</p>
+<p>branch 分支这里设置管理员 master</p>
+<p>更改以后进行保存  </p>
+<p>2)然后在Git里面输入 hexo d 将本地文件部署到github新建的仓库中<br>(如果不成功就在输入 hexo d 前输入两指令继续 hexo d 操作<br>git config –global user.email “这里是邮箱”<br>git config –global user.name “这里是github昵称”)  </p>
+<p>5.最后访问 https://+自己的仓库名 即可访问自己的博客了  </p>
+<h2 id="参考视频"><a href="#参考视频" class="headerlink" title="参考视频"></a>参考视频</h2><blockquote>
+<p>[视频来源于b站的up主] (<a href="https://www.bilibili.com/video/BV1pt411K7o9/" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1pt411K7o9/</a>) </p>
+</blockquote>
+<h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><hr>
+<hr>
+<p>希望该博客对你有所帮助。自己搭建时花费了许多时间和经历，所以深有感触。写了该博客，希望能节约你的时间并且带你避开一些坑。搭建自己的博客，加油！！！<br>（其博客内容来源于我对自己操作时所作的笔记与up主的文档的整理）</p>
 
-        <div class="article-info info-on-right">
-          
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/qq_pic_merged_1594088999467.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/qq_pic_merged_1594089043470.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+        <div class="article-pop-out tagcloud">
+          <i class="icon-tuding"></i>
+          <a class="article-tag-list-link color3">置顶</a>
+        </div>
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -199,57 +278,119 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yjhh.github.io/2020/07/17/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%9F%BA%E7%A1%80%E7%89%88/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/07/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2020-07-07T03:10:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-07</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/07/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">我的第一篇博客文章(测试用)</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">我的第一篇博客文章(测试用)</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#帮助小白搭建一个基础的博客-windows10版"><span class="toc-number">1.</span> <span class="toc-text">帮助小白搭建一个基础的博客(windows10版)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#准备操作"><span class="toc-number">1.1.</span> <span class="toc-text">准备操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#初始化操作"><span class="toc-number">1.2.</span> <span class="toc-text">初始化操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#深化操作"><span class="toc-number">1.3.</span> <span class="toc-text">深化操作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考视频"><span class="toc-number">1.4.</span> <span class="toc-text">参考视频</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#分隔线"><span class="toc-number">1.5.</span> <span class="toc-text">分隔线</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+        
+    </div>
+</aside>
+
+
+
   
   
-    </div></section>
   
 
-    
+  
+
+  
+
+  
 
 
           </div>
@@ -275,9 +416,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
