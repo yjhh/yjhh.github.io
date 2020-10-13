@@ -6,15 +6,26 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Tag: 随笔 | 雨季何患的个人博客</title>
+  <title>java职工工资管理系统 | 雨季何患的个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="雨季何患的个人博客">
-<meta property="og:url" content="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/index.html">
+  <meta name="description" content="java职工工资管理系统(GUI+无数据库)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java职工工资管理系统">
+<meta property="og:url" content="http://yoursite.com/2020/10/12/java%E8%81%8C%E5%B7%A5%E5%B7%A5%E8%B5%84%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/index.html">
 <meta property="og:site_name" content="雨季何患的个人博客">
+<meta property="og:description" content="java职工工资管理系统(GUI+无数据库)">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/images/4.png">
+<meta property="og:image" content="http://yoursite.com/images/5.png">
+<meta property="og:image" content="http://yoursite.com/images/6.png">
+<meta property="og:image" content="http://yoursite.com/images/7.png">
+<meta property="og:image" content="http://yoursite.com/images/8.png">
+<meta property="article:published_time" content="2020-10-12T13:02:40.000Z">
+<meta property="article:modified_time" content="2020-10-13T13:51:09.698Z">
 <meta property="article:author" content="雨季何患！">
+<meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/images/4.png">
   
     <link rel="alternative" href="/atom.xml" title="雨季何患的个人博客" type="application/atom+xml">
   
@@ -159,35 +170,691 @@
           </div>
           <div id="js-content" class="content-ll">
             
+    <i class="fa fa-thumb-tack"></i>
+    <font color=7D26CD>置顶</font>
+    <span class="post-meta-divider">|</span>
   
+<article id="post-java职工工资管理系统" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/10/12/java%E8%81%8C%E5%B7%A5%E5%B7%A5%E8%B5%84%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" class="archive-article-date">
+    <h1 class="article-title" itemprop="name">
+      java职工工资管理系统
+    </h1>
+  
+
+        
+        <a href="/2020/10/12/java%E8%81%8C%E5%B7%A5%E5%B7%A5%E8%B5%84%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" class="archive-article-date">
   	<time datetime="2020-10-12T13:02:40.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-12</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/10/12/java%E8%81%8C%E5%B7%A5%E5%B7%A5%E8%B5%84%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/">java职工工资管理系统</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="java职工工资管理系统-GUI-无数据库"><a href="#java职工工资管理系统-GUI-无数据库" class="headerlink" title="java职工工资管理系统(GUI+无数据库)"></a>java职工工资管理系统(GUI+无数据库)</h1><a id="more"></a>
+<h2 id="1-说明"><a href="#1-说明" class="headerlink" title="1 说明"></a>1 说明</h2><pre><code>此程序为本人大一的java课设，其中的思路也借鉴了不少网上开源的程序，明白其开源的必要性。  
 
-        <div class="article-info info-on-right">
-          
+或许程序中也有许多不足之处，但也希望此程序能帮助到大家！ </code></pre><hr>
+<h2 id="2-系统实现"><a href="#2-系统实现" class="headerlink" title="2 系统实现"></a>2 系统实现</h2><h3 id="2-1-登录界面"><a href="#2-1-登录界面" class="headerlink" title="2.1 登录界面"></a>2.1 登录界面</h3><pre><code>创建容器，把相应得组件设置后放入容器。如：密码、文本框、用户、按钮等组件。设置组件位置使其更加美观（如下图）。账号:root 密码：123</code></pre><p><img src="/images/4.png" alt="登录界面"></p>
+<h3 id="2-2-系统界面"><a href="#2-2-系统界面" class="headerlink" title="2.2 系统界面"></a>2.2 系统界面</h3><pre><code>在查询窗口输入工号，监听模块识别并在文件内查找与工号相同的员工输出在主界面中。若无此工号员工，则提示员工不存在。以下为界面布局代码和图片（如下图）</code></pre><p><img src="/images/5.png" alt="系统主界面">  </p>
+<h3 id="2-3-系统大致流程图"><a href="#2-3-系统大致流程图" class="headerlink" title="2.3 系统大致流程图"></a>2.3 系统大致流程图</h3><p><img src="/images/6.png" alt="流程图"> </p>
+<hr>
+<h2 id="3-测试情况"><a href="#3-测试情况" class="headerlink" title="3 测试情况"></a>3 测试情况</h2><h3 id="3-1-登录界面测评情况"><a href="#3-1-登录界面测评情况" class="headerlink" title="3.1 登录界面测评情况"></a>3.1 登录界面测评情况</h3><p><img src="/images/7.png" alt="如图"></p>
+<h3 id="3-2-主界面测评情况"><a href="#3-2-主界面测评情况" class="headerlink" title="3.2 主界面测评情况"></a>3.2 主界面测评情况</h3><p><img src="/images/8.png" alt="如图"></p>
+<h3 id="3-3-其它功能-略"><a href="#3-3-其它功能-略" class="headerlink" title="3.3 其它功能(略)"></a>3.3 其它功能(略)</h3><hr>
+<h2 id="4-代码"><a href="#4-代码" class="headerlink" title="4 代码"></a>4 代码</h2><h3 id="4-1-chief-java类"><a href="#4-1-chief-java类" class="headerlink" title="4.1 chief.java类"></a>4.1 chief.java类</h3><pre><code>功能：创建集合及main函数所在类，程序的入口。  </code></pre><p>代码：<br>import java.util.ArrayList;<br>public class chief {    </p>
+<pre><code>public static ArrayList&lt;Staff&gt; data = new ArrayList&lt;Staff&gt;();  
+public static void main(String[] args) {  
+GUI n=new GUI(&quot;工资管理系统&quot;,450,300);  
+}  </code></pre><p>}  </p>
+<h3 id="4-2-GUI-java类"><a href="#4-2-GUI-java类" class="headerlink" title="4.2 GUI.java类"></a>4.2 GUI.java类</h3><pre><code>功能：包含主界面和工资管理系统界面及其相应功能。如：登录、添加员工信息、删除员工信息等一系列功能。    </code></pre><p>代码：<br>import java.awt.BorderLayout;<br>import java.awt.Color;<br>import java.awt.Component;<br>import java.awt.FlowLayout;<br>import java.awt.Font;<br>import java.awt.Frame;<br>import java.awt.Toolkit;<br>import java.awt.event.ActionEvent;<br>import java.awt.event.ActionListener;<br>import java.io.File;<br>import java.io.IOException;<br>import java.util.ArrayList;<br>import javax.swing.*;<br>import javax.swing.border.EmptyBorder;<br>import javax.swing.table.DefaultTableModel;<br>import javax.swing.table.TableModel;<br>public class GUI extends JFrame{    </p>
+<pre><code>JLabel labe2=new JLabel(&quot;用户名：&quot;);      
+JLabel labe=new JLabel(&quot;密码    ：&quot;);
+JButton btn2=new JButton(&quot;登录&quot;);
+JButton btn3=new JButton(&quot;退出&quot;);
+JTextField inputField1=new JTextField(20);
+JPasswordField inputField2=new JPasswordField(20);    
+JPanel btnP1 = new JPanel();    
+public GUI(String s,int w,int h){
+    init(s);
+    ii();  
+    GUITools.center(this);
+    setSize(w, h);    
+    setVisible(true); 
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);    
+}
+public void init(String s) {
+    setTitle(s);
+    GUITools.setTitleImage(this, &quot;.\\title.png&quot;);    
+    btnP1.setBorder(new EmptyBorder(5, 5, 5, 5));
+    setContentPane(btnP1);
+    btnP1.setLayout(null);
+    labe.setForeground(Color.blue);
+    labe.setBounds(90, 139, 54, 15);
+    btnP1.add(labe);    
+    inputField1.setBounds(140, 84, 164, 28);
+    btnP1.add(inputField1);
+    inputField2.setBounds(140, 133, 164, 28);  
+    btnP1.add(inputField2);
+    labe2.setForeground(Color.blue); 
+    labe2.setBounds(90, 90, 54, 15);
+    btnP1.add(labe2);
+    btn2.setBounds(125, 186, 87, 28);
+    btnP1.add(btn2);
+    btn3.setBounds(240, 186, 87, 28); 
+    btnP1.add(btn3);
+    JLabel label_2 = new JLabel(&quot;    职工工资管理系统&quot;);
+    label_2.setFont(new Font(&quot;Dialog&quot;, Font.BOLD, 15));
+    label_2.setForeground(Color.BLACK);
+    label_2.setBounds(140, 40, 187, 34);
+    btnP1.add(label_2);
+}
+public void ii() {             
+    btn2.addActionListener(e-&gt;{ 
+        String content=inputField1.getText();
+String content2=String.valueOf(inputField2.getPassword());        
+  if((content!=null&amp;&amp;!content.trim().equals(&quot;&quot;))&amp;&amp;(content2!=null&amp;&amp;!content2.trim().equals(&quot;&quot;))) {
+            if(!new Password().Pa(content, content2)) {    
+                JOptionPane.showMessageDialog(null,&quot;账号密码错误&quot;,&quot;消息提示&quot;,JOptionPane.ERROR_MESSAGE);
+                inputField2.setText(&quot;&quot;);
+            }else {
+                this.dispose();
+                File f=new File(&quot;Staff.txt&quot;);
+                if(!f.exists()) {    
+                    try {
+                        f.createNewFile();
+                    } catch (IOException e1) {                    
+                        e1.printStackTrace();
+                    }
+                }else {
+                    try {
+                        FileRead.read();
+                    } catch (IOException e1) {                            
+                        e1.printStackTrace();
+                    }
+                }
+                new GUI2(this,true);    
+            }                        
+        }else {
+            JOptionPane.showMessageDialog(null,&quot;无效用户&quot;,&quot;消息提示&quot;,JOptionPane.ERROR_MESSAGE);    
+        }
+    });
+    btn3.addActionListener(e-&gt;{ 
+        System.exit(0);
+    });        
+} </code></pre><p>}</p>
+<p>class GUITools {</p>
+<pre><code>static Toolkit kit = Toolkit.getDefaultToolkit();
+
+public static void center(Component c) {
+    int x = (kit.getScreenSize().width - c.getWidth()) / 2;
+    int y = (kit.getScreenSize().height - c.getHeight()) / 2;
+    c.setLocation(x, y);
+}
+public static void setTitleImage(JFrame frame,String titleIconPath) {
+    frame.setIconImage(kit.createImage(titleIconPath));
+} </code></pre><p>}</p>
+<p>class GUI2 extends JDialog{</p>
+<pre><code>JScrollPane tablePane = new JScrollPane();
+JTable table = new JTable();        
+JPanel panel=new JPanel();
+JLabel label=new JLabel(&quot;请输入工号：&quot;);
+JTextField inputField=new JTextField(15);
+JButton btn=new JButton(&quot;搜索&quot;);
+JButton btn2=new JButton(&quot;刷新&quot;);        
+JPanel pane2=new JPanel();
+JButton btny1,btny2,btny3,btny4,btny5;
+JLabel labe2=new JLabel(&quot;  xxx 有限公司 &quot;);        
+JPanel pane3=new JPanel(); 
+JPanel pane=new JPanel();
+JPanel panei=new JPanel();
+JPanel panej=new JPanel();        
+public GUI2(Frame owner, boolean modal) {
+    super(owner, modal);
+    init2();           
+    addComponent();   
+    jj();              
+    queryStudent();               
+    setVisible(true);            
+}
+private void init2() {       
+this.setTitle(&quot;工资管理系统!&quot;);
+this.setSize(600,600);
+GUITools.center(this);
+this.setResizable(false);                
+}    
+private void addComponent() {
+    table.getTableHeader().setReorderingAllowed(false);    
+    table.getTableHeader().setResizingAllowed(false);     
+    table.setEnabled(false);                        
+    tablePane.setBounds(50, 50, 500, 100);            
+    tablePane.setViewportView(table);            
+    pane3.add(tablePane);                
+    panel.add(label);
+    panel.add(inputField);
+    panel.add(btn);
+    panel.add(btn2);
+    btny1=new JButton(&quot;删除用户&quot;);
+    btny2=new JButton(&quot;修改用户&quot;);            
+    btny3=new JButton(&quot;添加用户&quot;);
+    btny4=new JButton(&quot;使用帮助&quot;);
+    btny5=new JButton(&quot;退出系统&quot;);
+    pane2.setLayout(new BorderLayout());  //给按钮的总面板布局
+    panei.setLayout(new FlowLayout(FlowLayout.CENTER,100,10));
+    panej.setLayout(new FlowLayout(FlowLayout.CENTER,100,10));
+    panei.add(btny1);
+    panei.add(labe2);
+    panei.add(btny2);
+    panej.add(btny3);
+    panej.add(btny4);
+    panej.add(btny5);
+    pane2.add(panei,BorderLayout.PAGE_START);
+    pane2.add(panej,BorderLayout.CENTER);                
+    pane.setLayout(new BorderLayout());  
+    pane.add(panel,BorderLayout.PAGE_START);
+    pane.add(pane3,BorderLayout.CENTER);
+    pane.add(pane2,BorderLayout.PAGE_END);
+    this.add(pane);        
+}    
+public void jj() {
+    btn.addActionListener(e-&gt;{
+        String content=inputField.getText();    
+        if(content!=null&amp;&amp;!content.trim().equals(&quot;&quot;)) {
+            String h=content.replace(&quot; &quot;,&quot;&quot;);
+            String[][] tbody = new String[1][7];
+            for (int i = 0; i &lt; chief.data.size(); i++) {
+                if(h.equals(chief.data.get(i).getId())) {                
+                tbody[0][0]=chief.data.get(i).getId();
+                tbody[0][1]=chief.data.get(i).getName();
+                tbody[0][2]=chief.data.get(i).getSex();
+            tbody[0][3]=chief.data.get(i).getAge()+&quot;&quot;;
+            tbody[0][4]=chief.data.get(i).getBasic();
+        tbody[0][5]=chief.data.get(i).getAllowances();
+            tbody[0][6]=chief.data.get(i).getInterated();
+                    String[] thead = {&quot;工号&quot;,&quot;姓名&quot;,&quot;性别&quot;,&quot;年龄&quot;,&quot;基本工资&quot;,&quot;津贴&quot;,&quot;综合工资&quot;};
+                    TableModel dataModel = new DefaultTableModel(tbody, thead);
+                    table.setModel(dataModel); 
+                    inputField.setText(&quot;&quot;);        
+                    break;
+
+                }else { 
+                    if(i==(chief.data.size()-1)) {                            
+                        JOptionPane.showMessageDialog(null,&quot;该用户不存在&quot;,&quot;消息提示&quot;,JOptionPane.ERROR_MESSAGE);
+                    inputField.setText(&quot;&quot;);
+
+                    }
+                }
+            }
+
+        }  
+    });
+    btn2.addActionListener(e-&gt;{
+        queryStudent();    
+    });
+    btny1.addActionListener(e-&gt;{
+    aee(&quot;删除员工&quot;,&quot;取消&quot;,1);
+    });
+    btny2.addActionListener(e-&gt;{
+    ass(&quot;修改用户&quot;,&quot;修改&quot;,2);
+    });
+    btny3.addActionListener(e-&gt;{
+    ass(&quot;添加用户&quot;,&quot;添加&quot;,3);        
+    });
+    btny4.addActionListener(e-&gt;{
+    aee(&quot;帮助文档&quot;,&quot;退出&quot;,4);
+    });
+    btny5.addActionListener(e-&gt;{
+        try {
+            FileSave.save();
+        } catch (IOException e1) {
+
+            e1.printStackTrace();
+        }
+        System.exit(0);
+    });                
+}
+
+public void aee(String u,String s,int g) {
+    JDialog j=new JDialog(this);
+    j.setTitle(u);
+    j.setSize(400,320);
+    GUITools.center(j);
+    j.setResizable(false);
+    JLabel la1=new JLabel(&quot;    工号&quot;);
+    JLabel la2=new JLabel(&quot;                   1.修改用户：输入原有员工工号,并输入修改的信息。&quot;);
+    JLabel la3=new JLabel(&quot;                   2.添加用户：输入需要添加的员工所以信息即可。&quot;);
+    JLabel la4=new JLabel(&quot;                                *退出系统可以自动保存员工信息*&quot;);
+    JTextField in1=new JTextField(15);
+    JPanel btnP1 = new JPanel();
+    JPanel btnP2 = new JPanel();
+    JButton btn=new JButton(&quot;删除&quot;);
+    JButton btn2=new JButton(s);
+    JPanel btnP3 = new JPanel();    
+    btnP3.setLayout(new BorderLayout());            
+    if(g==4) {
+        btnP1.setLayout(new BorderLayout());
+        //btnP1.add(la2);
+        btnP1.add(la2,BorderLayout.PAGE_START);
+        btnP1.add(la3,BorderLayout.CENTER);
+        btnP1.add(la4,BorderLayout.PAGE_END);                
+        btnP2.add(btn2);                
+        btnP3.add(btnP1,BorderLayout.PAGE_START);
+        btnP3.add(btnP2,BorderLayout.CENTER);
+        j.add(btnP3);
+        j.setVisible(true);    
+
+        btn2.addActionListener(e-&gt;{
+            j.dispose();
+        });
+
+    }
+
+    if(g==1) {
+
+    btnP1.add(la1);
+    btnP1.add(in1);
+    btnP2.add(btn);
+    btnP2.add(btn2);
+    btnP3.add(btnP1,BorderLayout.PAGE_START);
+    btnP3.add(btnP2,BorderLayout.CENTER);
+    j.add(btnP3);
+    j.setVisible(true);        
+
+    btn.addActionListener(e-&gt;{
+        String con1=in1.getText();
+        String h=con1.replace(&quot; &quot;,&quot;&quot;);
+        if(chief.data.size()==0) {
+            JOptionPane.showMessageDialog(null,&quot;当前没有员工&quot;,&quot;警告&quot;,JOptionPane.ERROR_MESSAGE);
+            in1.setText(&quot;&quot;);
+        }
+        for (int i = 0; i &lt; chief.data.size(); i++) {
+            if(h.equals(chief.data.get(i).getId())) {
+                in1.setText(&quot;&quot;);  
+                chief.data.remove(i);
+                queryStudent();
+                break;
+
+            }
+            if(i==(chief.data.size()-1)) {
+                in1.setText(&quot;&quot;);
+                JOptionPane.showMessageDialog(null,&quot;该用户不存在&quot;,&quot;警告&quot;,JOptionPane.ERROR_MESSAGE);
+
+            }
+        }
+    });
+
+    btn2.addActionListener(e-&gt;{
+        j.dispose();
+
+    });
+}
+
+}
+public void ass(String p,String w,int g) { 
+    JDialog j=new JDialog(this);
+    j.setTitle(p);
+    j.setSize(400,320);
+    GUITools.center(j);
+    j.setResizable(false);
+    JLabel la1=new JLabel(&quot;    工号&quot;);
+    JLabel la2=new JLabel(&quot;    姓名&quot;);
+    JLabel la3=new JLabel(&quot;    性别&quot;);
+    JLabel la4=new JLabel(&quot;    年龄&quot;);
+    JLabel la5=new JLabel(&quot;基本工资&quot;);
+    JLabel la6=new JLabel(&quot;    津贴&quot;);
+    JLabel la7=new JLabel(&quot;  总工资&quot;);
+    JTextField in1=new JTextField(15);
+    JTextField in2=new JTextField(15);
+    JTextField in3=new JTextField(15);
+    JTextField in4=new JTextField(15);
+    JTextField in5=new JTextField(15);
+    JTextField in6=new JTextField(15);
+    JTextField in7=new JTextField(15);
+    JButton btn=new JButton(w);
+    JButton btn2=new JButton(&quot;取消&quot;);
+    JPanel btnP1 = new JPanel();
+    JPanel btnP2 = new JPanel();
+    JPanel btnP3 = new JPanel();    
+    JPanel btnP4 = new JPanel();
+    JPanel btnP5 = new JPanel();
+    JPanel btnP6 = new JPanel();
+    JPanel btnP7 = new JPanel();
+    JPanel btnP8 = new JPanel();
+    JPanel btnP9 = new JPanel();    
+    JPanel btnP10 = new JPanel();
+    JPanel btnP11 = new JPanel();
+    JPanel btnP12 = new JPanel();
+    btnP8.setLayout(new BorderLayout());
+    btnP9.setLayout(new BorderLayout());
+    btnP10.setLayout(new BorderLayout());
+
+    btnP1.add(la1);
+    btnP1.add(in1);
+    btnP2.add(la2);
+    btnP2.add(in2);
+    btnP3.add(la3);
+    btnP3.add(in3);
+    btnP4.add(la4);
+    btnP4.add(in4);
+    btnP5.add(la5);
+    btnP5.add(in5);
+    btnP6.add(la6);
+    btnP6.add(in6);
+    btnP7.add(la7);
+    btnP7.add(in7);
+    btnP12.add(btn);
+    btnP12.add(btn2);
+
+    btnP8.add(btnP1,BorderLayout.PAGE_START);
+    btnP8.add(btnP2,BorderLayout.CENTER);
+    btnP8.add(btnP3,BorderLayout.PAGE_END);
+
+    btnP9.add(btnP4,BorderLayout.PAGE_START);
+    btnP9.add(btnP5,BorderLayout.CENTER);
+
+    btnP10.add(btnP6,BorderLayout.PAGE_START);
+    btnP10.add(btnP7,BorderLayout.CENTER);
+    btnP10.add(btnP12,BorderLayout.PAGE_END);
+
+
+    j.setLayout(new BorderLayout()); 
+    j.add(btnP8,BorderLayout.PAGE_START);
+    j.add(btnP9,BorderLayout.CENTER);
+    j.add(btnP10,BorderLayout.PAGE_END);
+    j.setVisible(true);    
+    btn.addActionListener(e-&gt;{    
+        String con1=in1.getText();
+        String con2=in2.getText();
+        String con3=in3.getText();
+        String con4=in4.getText();
+        String con5=in5.getText();
+        String con6=in6.getText();
+        String con7=in7.getText();
+        String h=con1.replace(&quot; &quot;,&quot;&quot;);
+        int y=chief.data.size();
+        if(y==0&amp;&amp;g==3) {
+            chief.data.add(new Staff(con1,con2,con3,con4,con5,con6,con7));
+            queryStudent();
+            in1.setText(&quot;&quot;); 
+            in2.setText(&quot;&quot;); 
+            in3.setText(&quot;&quot;); 
+            in4.setText(&quot;&quot;); 
+            in5.setText(&quot;&quot;); 
+            in6.setText(&quot;&quot;); 
+            in7.setText(&quot;&quot;); 
+        }
+        if(y==0&amp;&amp;g==2) {
+            JOptionPane.showMessageDialog(null,&quot;当前没有员工&quot;,&quot;警告&quot;,JOptionPane.ERROR_MESSAGE);
+        }
+
+    for (int i = 0; i &lt; y; i++) {
+
+        if(h.equals(chief.data.get(i).getId())&amp;&amp;g==2) {
+
+            chief.data.set(i,new Staff(con1,con2,con3,con4,con5,con6,con7));
+            queryStudent();
+            in1.setText(&quot;&quot;); 
+            in2.setText(&quot;&quot;); 
+            in3.setText(&quot;&quot;); 
+            in4.setText(&quot;&quot;); 
+            in5.setText(&quot;&quot;); 
+            in6.setText(&quot;&quot;); 
+            in7.setText(&quot;&quot;);                     
+            break;
+
+        }  
+
+        if(h.equals(chief.data.get(i).getId())&amp;&amp;g==3) {
+            in1.setText(&quot;&quot;);  
+            JOptionPane.showMessageDialog(null,&quot;该工号用户已存在&quot;,&quot;消息提示&quot;,JOptionPane.ERROR_MESSAGE);                  
+            break;
+
+        }
+        if(i==(chief.data.size()-1)&amp;&amp;g==3) {
+            chief.data.add(new Staff(con1,con2,con3,con4,con5,con6,con7));
+            queryStudent();
+            in1.setText(&quot;&quot;); 
+            in2.setText(&quot;&quot;); 
+            in3.setText(&quot;&quot;); 
+            in4.setText(&quot;&quot;); 
+            in5.setText(&quot;&quot;); 
+            in6.setText(&quot;&quot;); 
+            in7.setText(&quot;&quot;); 
+
+        }
+        if(i==(chief.data.size()-1)&amp;&amp;g==2) {
+            in1.setText(&quot;&quot;);   
+            JOptionPane.showMessageDialog(null,&quot;该工号用户不存在&quot;,&quot;警告&quot;,JOptionPane.ERROR_MESSAGE);
+        }  
+
+    }
+    });
+    btn2.addActionListener(e-&gt;{
+        j.dispose();
+
+    });
+
+}
+
+public void queryStudent() {  
+
+    String[] thead = {&quot;工号&quot;,&quot;姓名&quot;,&quot;性别&quot;,&quot;年龄&quot;,&quot;基本工资&quot;,&quot;津贴&quot;,&quot;综合工资&quot;};                    
+    ArrayList&lt;Staff&gt; dataList =chief.data;
+    String[][] tbody = list2Array(dataList);
+
+    TableModel dataModel = new DefaultTableModel(tbody, thead);
+    table.setModel(dataModel);    
+}
+
+public String[][] list2Array(ArrayList&lt;Staff&gt; list){              
+    String[][] tbody = new String[list.size()][7];
+    for (int i = 0; i &lt; list.size(); i++) {
+        Staff staff = list.get(i);
+        tbody[i][0] = staff.getId();
+        tbody[i][1] = staff.getName();
+        tbody[i][2] = staff.getSex();
+        tbody[i][3] = staff.getAge()+&quot;&quot;;
+        tbody[i][4] = staff.getBasic();
+        tbody[i][5] = staff.getAllowances();
+        tbody[i][6] = staff.getInterated(); 
+    }        
+    return tbody;
+}</code></pre><p>}  </p>
+<h3 id="4-3-Password-java类"><a href="#4-3-Password-java类" class="headerlink" title="4.3 Password.java类"></a>4.3 Password.java类</h3><pre><code>功能：包括确定登录用户密码是否正确，保存和读取文件三个功能。  </code></pre><p>代码：<br>import java.io.BufferedReader;<br>import java.io.File;<br>import java.io.FileReader;<br>import java.io.FileWriter;<br>import java.io.IOException;<br>import java.util.HashMap;<br>import java.util.Map;  </p>
+<p>public class Password {</p>
+<pre><code>public boolean Pa(String content,String content2) {
+    Map&lt;String,String&gt; map=new HashMap&lt;String,String&gt;();
+    map.put(&quot;root&quot;, &quot;123&quot;);
+    String i=content.replace(&quot; &quot;,&quot;&quot;);
+    String j=content2.replace(&quot; &quot;,&quot;&quot;);
+    return j.equals(map.get(i));        
+}</code></pre><p>}<br>class FileSave{</p>
+<pre><code>       public static void save() throws IOException {
+        File f=new File(&quot;Staff.txt&quot;);
+        if(f.exists()) {
+            f.delete();
+        }
+        f.createNewFile();
+        FileWriter fw=null;
+        fw=new FileWriter(&quot;Staff.txt&quot;);
+        int i;
+        for(i=0;i&lt;chief.data.size();i++) {
+            String tmp=new String(chief.data.get(i).getId()+&quot;\t&quot;+chief.data.get(i).getName()+&quot;\t&quot;+chief.data.get(i).getSex()+&quot;\t&quot;+chief.data.get(i).getAge()+&quot;\t&quot;+chief.data.get(i).getBasic()+&quot;\t&quot;+chief.data.get(i).getAllowances()+&quot;\t&quot;+chief.data.get(i).getInterated());
+            fw.write(tmp+&quot;\r\n&quot;);
+        } 
+        fw.close();
+}</code></pre><p>}</p>
+<p>class FileRead {</p>
+<pre><code>public static void read() throws IOException {   
+        FileReader fr=null;
+        int i,j;
+        fr=new FileReader(&quot;Staff.txt&quot;);
+        BufferedReader br=new BufferedReader(fr); 
+        String line=br.readLine();  
+        while(line!=null) {
+            if(line.equals(&quot;&quot;)) {
+                line=br.readLine();
+                continue;
+            }
+            Staff s=new Staff();
+            String tmp[]=line.split(&quot;\\s&quot;);                
+                for(j=0;j&lt;tmp.length;j++) {
+                switch(j) {
+                    case 0:
+                        s.setId(tmp[j]);
+                        break;
+                    case 1:
+                        s.setName(tmp[j]);
+                        break;
+                    case 2:
+                        s.setSex(tmp[j]);
+                        break;
+                    case 3:
+                        s.setAge(tmp[j]);
+                        break;
+                    case 4:
+                        s.setBasic(tmp[j]);
+                        break;
+                    case 5:
+                        s.setAllowances(tmp[j]);
+                        break;
+                    case 6:
+                        s.setInterated(tmp[j]);
+                        break;
+                    }
+                }
+                boolean flag=true;
+                for(i=0;i&lt;chief.data.size();i++) {
+                if(s.getId().equals(chief.data.get(i).getId())) {
+                    flag=false;
+                }
+            }
+                if(flag) {
+                    chief.data.add(s);
+                }
+                line=br.readLine();
+        }
+        fr.close();</code></pre><p>}</p>
+<p>}<br>class Staff {</p>
+<pre><code>private String id;
+private String name;
+private String sex;
+private String age;
+private String basic;
+private String allowances;
+private String interated;
+
+public Staff() {
+}
+
+public Staff(String id,String name,String sex,String age,String basic,String allowances,String interated) {
+    this.id = id;
+    this.name = name;
+    this.sex = sex;
+    this.age = age;
+    this.basic = basic;
+    this.allowances = allowances;
+    this.interated = interated;
+}
+
+public String getId() {
+    return id;
+}
+
+public void setId(String id) {
+    this.id = id;
+}
+public String getName() {
+    return name;
+}
+public void setName(String name) {
+    this.name = name;
+}
+public String getSex() {
+    return sex;
+}
+public void setSex(String sex) {
+    this.sex = sex;
+} 
+public String getAge() {
+    return age;
+}
+public void setAge(String age) {
+    this.age = age;
+} 
+public String getBasic() {
+    return basic;
+}
+public void setBasic(String basic) {
+    this.basic = basic;
+}
+
+public String getAllowances() {
+    return allowances;
+}
+public void setAllowances(String allowances) {
+    this.allowances = allowances;
+}
+
+public String getInterated() {
+    return interated;
+}
+
+public void setInterated(String interated) {
+    this.interated = interated;
+}</code></pre><p>}  </p>
+<h2 id="代码打包"><a href="#代码打包" class="headerlink" title="代码打包"></a>代码打包</h2><blockquote>
+<p>[百度云] (<a href="https://pan.baidu.com/s/14QTX-3n-xNSyGqeGnq1vjA" target="_blank" rel="noopener">https://pan.baidu.com/s/14QTX-3n-xNSyGqeGnq1vjA</a>)<br>提取码：kfdm<br>如链接失效可联系本人邮箱：<a href="mailto:768165925@qq.com">768165925@qq.com</a></p>
+</blockquote>
+<hr>
+<hr>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/qq_pic_merged_1594088999467.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/qq_pic_merged_1594089043470.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+        <div class="article-pop-out tagcloud">
+          <i class="icon-tuding"></i>
+          <a class="article-tag-list-link color3">置顶</a>
+        </div>
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -199,95 +866,119 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yjhh.github.io/2020/10/12/java%E8%81%8C%E5%B7%A5%E5%B7%A5%E8%B5%84%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/07/17/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%9F%BA%E7%A1%80%E7%89%88/" class="archive-article-date">
-  	<time datetime="2020-07-17T03:27:01.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-17</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2020/07/17/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%9F%BA%E7%A1%80%E7%89%88/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">hexo博客搭建(基础版)</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/17/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA-%E5%9F%BA%E7%A1%80%E7%89%88/">hexo博客搭建(基础版)</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#java职工工资管理系统-GUI-无数据库"><span class="toc-number">1.</span> <span class="toc-text">java职工工资管理系统(GUI+无数据库)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-说明"><span class="toc-number">1.1.</span> <span class="toc-text">1 说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-系统实现"><span class="toc-number">1.2.</span> <span class="toc-text">2 系统实现</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-登录界面"><span class="toc-number">1.2.1.</span> <span class="toc-text">2.1 登录界面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-系统界面"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.2 系统界面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-系统大致流程图"><span class="toc-number">1.2.3.</span> <span class="toc-text">2.3 系统大致流程图</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-测试情况"><span class="toc-number">1.3.</span> <span class="toc-text">3 测试情况</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-登录界面测评情况"><span class="toc-number">1.3.1.</span> <span class="toc-text">3.1 登录界面测评情况</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-主界面测评情况"><span class="toc-number">1.3.2.</span> <span class="toc-text">3.2 主界面测评情况</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-其它功能-略"><span class="toc-number">1.3.3.</span> <span class="toc-text">3.3 其它功能(略)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-代码"><span class="toc-number">1.4.</span> <span class="toc-text">4 代码</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-chief-java类"><span class="toc-number">1.4.1.</span> <span class="toc-text">4.1 chief.java类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-2-GUI-java类"><span class="toc-number">1.4.2.</span> <span class="toc-text">4.2 GUI.java类</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-3-Password-java类"><span class="toc-number">1.4.3.</span> <span class="toc-text">4.3 Password.java类</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码打包"><span class="toc-number">1.5.</span> <span class="toc-text">代码打包</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
+        
+    </div>
+</aside>
+
+
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2020/07/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/" class="archive-article-date">
-  	<time datetime="2020-07-07T03:10:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-07</time>
-</a>
-        </div>
-    	 
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/07/07/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/">我的第一篇博客文章(测试用)</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -313,9 +1004,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
